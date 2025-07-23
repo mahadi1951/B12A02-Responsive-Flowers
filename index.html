@@ -6,28 +6,39 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Responsive Flowers</title>
 </head>
-<body>
+<body class="max-w-7xl m-auto">
 
+<!-- navbar -->
 
     <header>
-        <nav>
-            <img src="assets/logo.png" alt="">
-            <ul>
+        <nav class="flex flex-row items-center justify-between ">
+            <div class="w-full">
+                <img class="w-40" src="assets/logo.png" alt="">
+            </div>
+            <ul class="flex flex-row gap-6  items-center ">
                
-               <li><a href="#">Home</a></li>
+               <li><a class="font-bold" href="#">Home</a></li>
                <li><a href="#">Shop</a></li>
                <li><a href="#">About us</a></li>
-               <li>
-                <img src="assets/" alt="">
+               <li class="flex items-center gap-2 whitespace-nowrap">
+                <img
+                class="w-6 h-6" src="assets/shoping cart.png" alt="">
+                <a class="font-semibold" href="#">Cart ($56)</a>
                </li>
             </ul>
         </nav>
+        <!-- banner section -->
+         <div class="flex flex-col-reverse  lg:flex-row  ">
+            <div class="content-end ">
+                <h1 class="lg:text-6xl sm:text-4xl font-bold leading-tight">ALWAYS <span class="text-orange-500">FRESH FLOWERS</span></h1>
+                <p class="text-sm sm:text-base font-medium text-gray-600 mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img src="assets/hero-flower.png" alt="">
+         </div>
     </header>
 
 
-    <main>
-
-    </main>
+   
 
 
     <footer>
